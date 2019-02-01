@@ -14,7 +14,7 @@ int main() /* this is (almost) always where your program starts */
 	/* TODO: why do you need the quotes?  Find out what happens if you
 	 * take them out.  And what is the '\n' for?  Do some experimenting
 	 * to find out.  */
-	std::cout << "hello world\n";
+	std::cout << "Hello World\n";
 	/* TODO: remove the semicolon at the end of the above line, and
 	 * see what error messages result when you try to compile. */
 }
