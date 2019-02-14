@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a3eb57b-4016-4431-bda5-2a9db8b1883a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03/if-while.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whatstheoutput/1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whatstheoutput/2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whatstheoutput/3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whatstheoutput/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +30,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="25" />
-    <option name="y" value="32" />
+    <option name="x" value="6" />
+    <option name="y" value="82" />
     <option name="width" value="1400" />
     <option name="height" value="760" />
   </component>
@@ -68,11 +62,6 @@
               <item name="csc103-lectures" type="b2602c69:ProjectViewProjectNode" />
               <item name="csc103-lectures" type="462c0819:PsiDirectoryNode" />
               <item name="csc103-lab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csc103-lectures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csc103-lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -109,17 +98,17 @@
       <workItem from="1549030736581" duration="2683000" />
       <workItem from="1549378005478" duration="1518000" />
       <workItem from="1549555536589" duration="797000" />
+      <workItem from="1550159863929" duration="447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4998000" />
+    <option name="totallyTimeSpent" value="5445000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="25" y="32" width="1400" height="760" extended-state="0" />
-    <editor active="true" />
+    <frame x="6" y="82" width="1400" height="760" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
