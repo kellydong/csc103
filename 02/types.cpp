@@ -26,6 +26,14 @@ int main()
 	 * That is, set floating point values a,b,c such that
 	 * a+c == b+c, and yet a =/= b */
 
+	 float a = 3.0;
+	 float b = 3.0;
+	 float k = 4;
+	 if (a+k==b+k)
+	    cout << "true \n";
+	 else
+	    cout << "false \n";
+
 	return 0;
 	/* NOTE: the "return 0" sends the value 0 back to
 	 * the shell.  0 is interpreted as "OK", and anything
