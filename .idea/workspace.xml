@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a3eb57b-4016-4431-bda5-2a9db8b1883a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/05/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/collatz.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/lucas.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/notes.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09/exercises.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09/notes.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/types" beforeDir="false" afterPath="$PROJECT_DIR$/02/types" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/types.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/02/types.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/types.o" beforeDir="false" afterPath="$PROJECT_DIR$/02/types.o" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +17,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/csc103-lab/01.cpp">
+        <entry file="file://$PROJECT_DIR$/csc103-lab/02.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="29" selection-end-column="1" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06/functions.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-90" />
           </provider>
         </entry>
       </file>
@@ -40,12 +43,13 @@
         <option value="$PROJECT_DIR$/01/hello.cpp" />
         <option value="$PROJECT_DIR$/csc103-lab/01.cpp" />
         <option value="$PROJECT_DIR$/02/types.cpp" />
+        <option value="$PROJECT_DIR$/csc103-lab/02.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
-    <option name="y" value="23" />
+    <option name="x" value="122" />
+    <option name="y" value="40" />
     <option name="width" value="1400" />
     <option name="height" value="779" />
   </component>
@@ -54,17 +58,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="csc103-lectures" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -75,17 +68,28 @@
             <path>
               <item name="csc103-lectures" type="b2602c69:ProjectViewProjectNode" />
               <item name="csc103-lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="02" type="462c0819:PsiDirectoryNode" />
+              <item name="06" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csc103-lectures" type="b2602c69:ProjectViewProjectNode" />
               <item name="csc103-lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="03" type="462c0819:PsiDirectoryNode" />
+              <item name="09" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csc103-lectures" type="b2602c69:ProjectViewProjectNode" />
               <item name="csc103-lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="04" type="462c0819:PsiDirectoryNode" />
+              <item name="csc103-lab" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="csc103-lectures" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -125,17 +129,18 @@
       <workItem from="1550159863929" duration="1420000" />
       <workItem from="1550240466398" duration="520000" />
       <workItem from="1550591811015" duration="1670000" />
+      <workItem from="1551369886766" duration="4364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8608000" />
+    <option name="totallyTimeSpent" value="12972000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="23" width="1400" height="779" extended-state="0" />
+    <frame x="122" y="40" width="1400" height="779" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26804122" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26730487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -207,8 +212,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/csc103-lab/01.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07/triangles.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08/reverse-stdin.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09/exercises.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/functions.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc103-lab/02.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="29" selection-end-column="1" />
         </state>
       </provider>
     </entry>
