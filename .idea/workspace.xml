@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a3eb57b-4016-4431-bda5-2a9db8b1883a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/07/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09/exercises.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09/notes.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0a3eb57b-4016-4431-bda5-2a9db8b1883a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,24 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/csc103-lab/02.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="29" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06/functions.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90" />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,21 +41,6 @@
             <path>
               <item name="csc103-lectures" type="b2602c69:ProjectViewProjectNode" />
               <item name="csc103-lectures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csc103-lectures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csc103-lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csc103-lectures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csc103-lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csc103-lectures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csc103-lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="csc103-lab" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -129,16 +91,15 @@
       <workItem from="1550159863929" duration="1420000" />
       <workItem from="1550240466398" duration="520000" />
       <workItem from="1550591811015" duration="1670000" />
-      <workItem from="1551369886766" duration="4364000" />
+      <workItem from="1551369886766" duration="4435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12972000" />
+    <option name="totallyTimeSpent" value="13043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="122" y="40" width="1400" height="779" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26730487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -234,17 +195,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06/functions.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csc103-lab/02.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="225">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/functions.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
