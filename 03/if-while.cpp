@@ -38,7 +38,7 @@ int main()
 	 * common mistake, especially since the mistake *still compiles*.
 	 * Example: */
 
-	if (n = 99) {
+	if (n == 99) {
 		cout << "n was 99!\n";
 	}
 
@@ -96,6 +96,11 @@ int main()
  * integers fed to stdin like this: echo 8 2 3 | ./a.out
  * and you should get 8*2*3 = 48
  * */
+    int product;
+    while(cin>>x)
+    {
+        product *= x;
+    }
 
 /* TODO: given an integer n, find exponent of the largest power of two that
  * divides n.  Example: if n = r*8 with r odd, then you should output 3

@@ -51,6 +51,25 @@ int main()
  * swap(x,y), y=2 and x=5 */
 /* TODO: write an isPrime function that takes an integer and returns a boolean
  * value indicating whether or not it is prime.  */
+ bool isPrime (int x) {
+        int i = 2;
+        bool prime = true;
+        if (x <= 1)
+        {
+            prime = false;
+            i = x;
+        }
+        while (i < x)
+        {
+            int check = x % i;
+            i++;
+            if (check == 0)
+            {
+                prime = false;
+            }
+        }
+        return prime;
+ }
 /* TODO: write a *function* that takes an integer n and returns the
  * nth term in the Fibonacci sequence. */
 /* TODO: write test code for all the above exercises. */
