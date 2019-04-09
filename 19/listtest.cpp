@@ -61,6 +61,9 @@ int main()
 	return 0;
 }
 
+/* TODO: try out the ways mentioned in lecture to remove the special case
+ * for the first node. */
+
 /* TODO: write a function that takes a list (as a pointer to the first node)
  * and two integers x,y, searches for x, and inserts a new node containing y
  * *before* the node with the x.  If x is not found, append y to the end of
