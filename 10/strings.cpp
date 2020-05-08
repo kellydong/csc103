@@ -20,7 +20,13 @@ size_t countChars(const string& s, char c)
 	 * on teststring above.  Take note of the compiler error in case
 	 * you see it again later (the message from g++ might not be all
 	 * that easy to read/understand). */
-	return 0;
+	size_t n = s.length();
+    int count = 0;
+    for (size_t i=0; i<n; i++){
+        if(s[i] == c)
+            count++;
+    }
+	return count;
 }
 
 /* TODO: write the following function which converts all lower
@@ -38,9 +44,29 @@ void YELL(string& s) {
 /* TODO: write a function that takes a string and returns a boolean
  * indicating whether or not it was a palindrome.
  * */
+ bool palindrome(const string& s)
+{
+    bool palindrome = true;
+    size_t n = s.length();
+    for (size_t i=0; i<n; i++){
+        if(s[i] != s[n-i-1])
+            palindrome = false;
+    }
+	return palindrome;
+}
 
 /* TODO: write a function that takes a string by reference and reverses it.
  * */
+
+ void reverse(const string& s)
+{
+    size_t n = s.length();
+    for (size_t i=0; i<n/2; i++){
+        char temp = s[i];
+        s[i]=s[n-1-i];
+        s[n-1-i] = temp;
+    }
+}
 
 /* TODO: finish the find function we outlined in class.  It should take two
  * strings and returns an integer value indicating whether or not the first
@@ -57,6 +83,9 @@ int find(const string& s1, const string& s2) {
  * */
 
 int main() {
+    char c ='o';
+    cout << countChars(teststring,c) << endl;
+    cout << palindrome(teststring) << endl;
 	/* TODO: write test code for all of the functions you wrote above */
 	return 0;
 }

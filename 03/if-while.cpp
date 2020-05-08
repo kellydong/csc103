@@ -80,9 +80,9 @@ int main()
 		sum = sum+i;
 		i = i+1; /* shorthand: i++ */
 	}
-	cout << "sum = " << sum << "\n";
+	cout << "sum = " << sum << "\n"; //5050
 	/* TODO: guess the value of i at this point. */
-	cout << "i = " << i << "\n";
+	cout << "i = " << i << "\n"; //101
 
 	return 0;
 }
@@ -96,15 +96,30 @@ int main()
  * integers fed to stdin like this: echo 8 2 3 | ./a.out
  * and you should get 8*2*3 = 48
  * */
-    int product;
+int main()
+{
+    int product = 1;
+    int x;
     while(cin>>x)
     {
         product *= x;
     }
-
+    cout << product << endl;
+}
 /* TODO: given an integer n, find exponent of the largest power of two that
  * divides n.  Example: if n = r*8 with r odd, then you should output 3
  * since 8 = 2^3.  (You are just recovering the exponent of the 2 in the
  * number's factorization into primes.)
  * (IDEA: keep on dividing n by two until we can't,
  * and keep track of how many times it worked.) */
+
+ int main(){
+    int x;
+    cin>>x;
+    int count = 0;
+    while (x%2 == 0){
+        x=x/2;
+        count++;
+    }
+    cout<<count<<endl;
+}

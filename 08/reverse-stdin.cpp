@@ -23,6 +23,14 @@ int main()
  * a particular value x, returning true if and only if x is found.
  * NOTE: you should think carefully about how to pass the parameters,
  * especially for the vector.  (By value, reference, const reference?) */
+ bool search(const vector<int> & V, int x){
+    for(size_t i=0; i<V.size(); i++)
+    {
+        if(V[i] == x)
+            return true;
+    }
+    return false;
+}
 /* TODO: write a *binary search* on a sorted vector.  The idea is to
  * kind of emulate the process you use to find a particular page in a book:
  * 1. open the book to some page in the middle.

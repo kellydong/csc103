@@ -34,6 +34,8 @@ int f(int x) {
 
 int main()
 {
+    cout << max(1,2,3) << endl;
+    cout << average(3.2,3.4,4.5) << endl;
 	return 0;
 }
 
@@ -44,11 +46,32 @@ int main()
 
 /* TODO: write a function that takes 3 integers and returns
  * the maximal value */
+ int max(int x,int y,int z){
+    int max =x;
+    if (y>x)
+        max=y;
+    if (z>y)
+        max=z;
+    return max;
+ }
 /* TODO: write a function that takes 3 doubles and returns the
  * average value */
+ double average(double x,double y,double z){
+    double average = (x+y+z)/3;
+    return average;
+ }
 /* TODO: write a function that takes two integer parameters and
  * swaps the contents, i.e., if x=2 and y=5, then after calling
  * swap(x,y), y=2 and x=5 */
+
+  void swap(int* x,int* y){
+    int a = *x;
+    *x=*y;
+    *y=a;
+    return;
+ }
+// need to add the * to read from or write to memory
+
 /* TODO: write an isPrime function that takes an integer and returns a boolean
  * value indicating whether or not it is prime.  */
  bool isPrime (int x) {

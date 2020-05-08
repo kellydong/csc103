@@ -56,4 +56,28 @@ int main()
 
 /* TODO: write a small program that reads 3 integers (from stdin, using
  * cin), and prints the *average* of the 3 to stdout (using cout).
- * TODO: do the same for 5 integers, but ONLY USE TWO VARIABLES! */
+ int main()
+{
+  int x, y, z;
+  double average;
+  cin>>x;
+  cin>>y;
+  cin>>z;
+  average = (x+y+z)/3;
+  cout<<average;
+}
+
+ * TODO: do the same for 5 integers, but ONLY USE TWO VARIABLES!
+
+int main()
+{
+  int total = 0;
+  int x;
+  for(int i=0; i<5; i++){
+      cin >> x;
+      total = total + x;
+  }
+  cout<<total/5;
+}
+
+ */

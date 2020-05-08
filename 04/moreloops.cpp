@@ -21,9 +21,31 @@ int main()
 
 	/* TODO: sum the squares of all integers from 1..100.
 	 * I.e., compute 1+4+9+...+10000 */
-
+int main(){
+    int sum = 0;
+    int n = 1;
+    while (n<=100){
+        sum = sum + n*n; // n^2 is not a syntax in c++
+        n++;
+    }
+    cout<<sum<<endl;
+    cout<<n<<endl;
+}
 	/* TODO: write a loop that prints the sum of the first n odd cubes. */
-
+int main(){
+    int sum = 0;
+    int count = 0;
+    int n = 1;
+    int x;
+    cin >> x;
+    while (count < x){
+        sum = sum + n*n*n;
+        n=n+2;
+        count++;
+    }
+    cout<<sum<<endl;
+    cout<<n<<endl;
+}
 	/* TODO: make sure you can compute similar things, like the min, max,
 	 * sum, product, and the average of numbers given on stdin.
 	 * Try to take the following very high level steps:
